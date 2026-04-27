@@ -1,0 +1,111 @@
+# Arquivos de ambiente e configuração
+.env
+.env.local
+.env.production
+.env.development
+.env.testing
+
+# Arquivos de configuração com credenciais
+config.php.bkp
+config.old.php
+*.config.php
+
+# Dependências e vendor
+/vendor/
+composer.lock
+composer.phar
+
+# Arquivos de log
+*.log
+error_log
+access_log
+logs/
+/log/
+
+# Cache e temporários
+/cache/
+/tmp/
+*.tmp
+*.temp
+*.cache
+
+# IDE e editores
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.netrwhist
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads e arquivos gerados pelo sistema
+/uploads/
+/uploads/*.jpg
+/uploads/*.png
+/uploads/*.pdf
+/uploads/*.doc
+/uploads/*.docx
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+backup_*
+*.sql
+*.sql.gz
+
+# Arquivos específicos do seu projeto
+/config/database.php (se for gerado dinamicamente)
+/config/database.local.php
+
+# Arquivos de sessão
+sess_*
+session/
+
+# Relatórios e testes
+/test/
+/tests/
+phpunit.xml
+*.coverage
+*.cov
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Arquivos de certificado
+*.pem
+*.crt
+*.key
+*.cert
+
+# Arquivos específicos do servidor web
+.htaccess.backup
+.htaccess.local
+web.config.backup
+
+# Arquivos de configuração do PHP
+php.ini
+php.ini.backup
+.user.ini
+
+# Arquivos temporários do editor
+*.DS_Store
+._*
+
+# Arquivos de backup de banco de dados
+db_backup.sql
+database_backup/
